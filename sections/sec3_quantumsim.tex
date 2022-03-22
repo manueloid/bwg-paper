@@ -1,0 +1,22 @@
+\section{Numerical Simulation}
+The quantum simulation has been carried out via the split operator method \cite{NoneFeit1982}, relying on the Fourier transform in cartesian coordinates.
+Hence, the Frenet Serrat differential equations \crefrange{eq:frenet1}{eq:frenet2} have been solved to retrieve the curves $ \Ga_{n} $ (as in \cref{fig:curves}) and they have the subsequently been used to build the potential in cartesian coordinates to rewrite the Hamiltonian \cref{eq:curvedhamilton} in the Cartesian frame of reference
+\begin{equation}
+	\label{eq:splitophamilton}
+	h = -\partial_{x}^{2}-\partial_{y}^{2} + V_{C}(x,y)
+\end{equation}
+where now $ V_{C}(x,y) $  is the whole potential in Cartesian coordinates, encompassing both the attractive potential $ V(s,u) $ due to the bending and the harmonic trapping $ V_{\perp}(u) $ of \cref{eq:curvedhamilton}.
+We then choose the initial wave function $ \psi_{0} $ to be a travelling 2D Gaussian wave packet with initial momentum $ k_{0} $ in a harmonic waveguide of trapping frequency $ \omega $ as in \cref{eq:initial_state}.
+Moreover, the longitudinal and transverse dispersion $ \sigma_{x} $  and $ \sigma_{y} $ have been fixed to 0.05 and $ \frac{1}{2} m\omega $ respectively.
+Finally, the mass have been set to $ m = 400\hbar T/R^{2} $.
+We will then simulate the time evolution of $ \psi_{0} $ \cref{eq:initial_state}  under the effect of the potential $ V_{C}(x,y) $, to obtain the final state $ \psi_{so} $.
+To find the fidelity of this protocol we need to define a reference case, assumed to be ideal. 
+In an ideal situation the wave function would evolve as if it was moving along a straight waveguide, hence no mixing between the longitudinal and transverse components would arise.
+We refer to this reference wave function as $ \psi_{f} $ and we will evaluate the overlap with $ \psi_{so} $ to finally define the fidelity
+\begin{equation}
+	\label{eq:fidelity}
+	F = |\braket{\psi_{f}|\psi_{so}}|^{2}.
+\end{equation}
+This approach is based on the assumption that - in first approximation - a quantum particle can be modelled as a classical one and this assumption has been proven to be effective and to yield high level of fidelity ($>99\%$).
+But if we really want to compare the effects of the geometry on the fidelity for different curves $ \Ga_{n} $, the variables $ k_{0} $ and $ \omega $ need to be set in order to make the geometry of the system predominant with respect to the other properties.
+With this in mind, we have decided to run the simulations for $ \omega T = 3,5,7 $ while the initial momentum has been varied until a significant drop in fidelity is reached and in the next section we will show and explain the results of our calculations.

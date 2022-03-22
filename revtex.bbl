@@ -1,0 +1,296 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{13}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Goldstone}\ and\ \citenamefont
+  {Jaffe}(1992)}]{BoundStatesInGoldst1992}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Goldstone}}\ and\ \bibinfo {author} {\bibfnamefont {R.~L.}\ \bibnamefont
+  {Jaffe}},\ }\bibfield  {title} {{\selectlanguage {english}\bibinfo {title}
+  {Bound states in twisting tubes}},\ }\href
+  {https://doi.org/10.1103/physrevb.45.14100} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {45}},\ \bibinfo
+  {pages} {14100} (\bibinfo {year} {1992})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Clark}\ and\ \citenamefont
+  {Bracken}(1996)}]{BoundStatesInClark1996}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~J.}\ \bibnamefont
+  {Clark}}\ and\ \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Bracken}},\ }\bibfield  {title} {\bibinfo {title} {Bound states in tubular
+  quantum waveguides with torsion},\ }\href
+  {https://doi.org/10.1088/0305-4470/29/15/022} {\bibfield  {journal} {\bibinfo
+   {journal} {Journal of Physics A: Mathematical and General}\ }\textbf
+  {\bibinfo {volume} {29}},\ \bibinfo {pages} {4527} (\bibinfo {year}
+  {1996})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bittner}\ \emph {et~al.}(2013)\citenamefont
+  {Bittner}, \citenamefont {Dietz}, \citenamefont {Miski-Oglu}, \citenamefont
+  {Richter}, \citenamefont {Ripp}, \citenamefont {Sadurn\'{\i}},\ and\
+  \citenamefont {Schleich}}]{BoundStatesInBittne2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bittner}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont {Dietz}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Miski-Oglu}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Richter}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Ripp}}, \bibinfo {author} {\bibfnamefont
+  {E.}~\bibnamefont {Sadurn\'{\i}}},\ and\ \bibinfo {author} {\bibfnamefont
+  {W.~P.}\ \bibnamefont {Schleich}},\ }\bibfield  {title} {{\selectlanguage
+  {english}\bibinfo {title} {Bound states in sharply bent waveguides:
+  Analytical and experimental approach}},\ }\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review E}\ }\textbf {\bibinfo {volume} {87}},\ \href
+  {https://doi.org/10.1103/physreve.87.042912} {10.1103/physreve.87.042912}
+  (\bibinfo {year} {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Carini}\ \emph {et~al.}(1993)\citenamefont {Carini},
+  \citenamefont {Londergan}, \citenamefont {Mullen},\ and\ \citenamefont
+  {Murdock}}]{MultipleBoundCarini1993}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont
+  {Carini}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont
+  {Londergan}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Mullen}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.~P.}\ \bibnamefont {Murdock}},\
+  }\bibfield  {title} {{\selectlanguage {english}\bibinfo {title} {Multiple
+  bound states in sharply bent waveguides}},\ }\href
+  {https://doi.org/10.1103/physrevb.48.4503} {\bibfield  {journal} {\bibinfo
+  {journal} {Physical Review B}\ }\textbf {\bibinfo {volume} {48}},\ \bibinfo
+  {pages} {4503} (\bibinfo {year} {1993})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gu\'{e}ry-Odelin}\ \emph {et~al.}(2019)\citenamefont
+  {Gu\'{e}ry-Odelin}, \citenamefont {Ruschhaupt}, \citenamefont {Kiely},
+  \citenamefont {Torrontegui}, \citenamefont {Mart\'{\i}nez-Garaot},\ and\
+  \citenamefont {Muga}}]{ShortcutsToAdGuery2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Gu\'{e}ry-Odelin}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Ruschhaupt}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kiely}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Torrontegui}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Mart\'{\i}nez-Garaot}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Muga}},\ }\bibfield
+  {title} {{\selectlanguage {english}\bibinfo {title} {Shortcuts to
+  adiabaticity: Concepts, methods, and applications}},\ }\bibfield  {journal}
+  {\bibinfo  {journal} {Reviews of Modern Physics}\ }\textbf {\bibinfo {volume}
+  {91}},\ \href {https://doi.org/10.1103/revmodphys.91.045001}
+  {10.1103/revmodphys.91.045001} (\bibinfo {year} {2019})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Impens}\ \emph {et~al.}(2020)\citenamefont {Impens},
+  \citenamefont {Duboscq},\ and\ \citenamefont
+  {Gu\'{e}ry-Odelin}}]{QuantumControlImpens2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Impens}}, \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Duboscq}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Gu\'{e}ry-Odelin}},\
+  }\bibfield  {title} {{\selectlanguage {english}\bibinfo {title} {Quantum
+  control beyond the adiabatic regime in 2d curved matter-wave guides}},\
+  }\bibfield  {journal} {\bibinfo  {journal} {Physical Review Letters}\
+  }\textbf {\bibinfo {volume} {124}},\ \href
+  {https://doi.org/10.1103/physrevlett.124.250403}
+  {10.1103/physrevlett.124.250403} (\bibinfo {year} {2020})\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Amico}\ \emph {et~al.}(2021)\citenamefont {Amico},
+  \citenamefont {Boshier}, \citenamefont {Birkl}, \citenamefont {Minguzzi},
+  \citenamefont {Miniatura}, \citenamefont {Kwek}, \citenamefont {Aghamalyan},
+  \citenamefont {Ahufinger}, \citenamefont {Anderson}, \citenamefont {Andrei},
+  \citenamefont {Arnold}, \citenamefont {Baker}, \citenamefont {Bell},
+  \citenamefont {Bland}, \citenamefont {Brantut}, \citenamefont {Cassettari},
+  \citenamefont {Chetcuti}, \citenamefont {Chevy}, \citenamefont {Citro},
+  \citenamefont {De~Palo}, \citenamefont {Dumke}, \citenamefont {Edwards},
+  \citenamefont {Folman}, \citenamefont {Fortagh}, \citenamefont {Gardiner},
+  \citenamefont {Garraway}, \citenamefont {Gauthier}, \citenamefont
+  {G\"{u}nther}, \citenamefont {Haug}, \citenamefont {Hufnagel}, \citenamefont
+  {Keil}, \citenamefont {Ireland}, \citenamefont {Lebrat}, \citenamefont {Li},
+  \citenamefont {Longchambon}, \citenamefont {Mompart}, \citenamefont {Morsch},
+  \citenamefont {Naldesi}, \citenamefont {Neely}, \citenamefont {Olshanii},
+  \citenamefont {Orignac}, \citenamefont {Pandey}, \citenamefont
+  {P\'{e}rez-Obiol}, \citenamefont {Perrin}, \citenamefont {Piroli},
+  \citenamefont {Polo}, \citenamefont {Pritchard}, \citenamefont {Proukakis},
+  \citenamefont {Rylands}, \citenamefont {Rubinsztein-Dunlop}, \citenamefont
+  {Scazza}, \citenamefont {Stringari}, \citenamefont {Tosto}, \citenamefont
+  {Trombettoni}, \citenamefont {Victorin}, \citenamefont {Klitzing},
+  \citenamefont {Wilkowski}, \citenamefont {Xhani},\ and\ \citenamefont
+  {Yakimenko}}]{RoadmapOnAtomAmico2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Amico}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Boshier}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Birkl}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Minguzzi}}, \bibinfo {author}
+  {\bibfnamefont {C.}~\bibnamefont {Miniatura}}, \bibinfo {author}
+  {\bibfnamefont {L.-C.}\ \bibnamefont {Kwek}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Aghamalyan}}, \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Ahufinger}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Anderson}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Andrei}}, \bibinfo {author} {\bibfnamefont
+  {A.~S.}\ \bibnamefont {Arnold}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Baker}}, \bibinfo {author} {\bibfnamefont {T.~A.}\
+  \bibnamefont {Bell}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Bland}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Brantut}},
+  \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Cassettari}}, \bibinfo
+  {author} {\bibfnamefont {W.~J.}\ \bibnamefont {Chetcuti}}, \bibinfo {author}
+  {\bibfnamefont {F.}~\bibnamefont {Chevy}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Citro}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {De~Palo}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Dumke}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Edwards}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Folman}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Fortagh}}, \bibinfo {author} {\bibfnamefont {S.~A.}\
+  \bibnamefont {Gardiner}}, \bibinfo {author} {\bibfnamefont {B.~M.}\
+  \bibnamefont {Garraway}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Gauthier}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {G\"{u}nther}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Haug}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Hufnagel}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Keil}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Ireland}}, \bibinfo {author} {\bibfnamefont
+  {M.}~\bibnamefont {Lebrat}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Longchambon}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Mompart}}, \bibinfo {author} {\bibfnamefont {O.}~\bibnamefont {Morsch}},
+  \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Naldesi}}, \bibinfo
+  {author} {\bibfnamefont {T.~W.}\ \bibnamefont {Neely}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Olshanii}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Orignac}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Pandey}}, \bibinfo {author} {\bibfnamefont
+  {A.}~\bibnamefont {P\'{e}rez-Obiol}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Perrin}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Piroli}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Polo}}, \bibinfo {author} {\bibfnamefont {A.~L.}\
+  \bibnamefont {Pritchard}}, \bibinfo {author} {\bibfnamefont {N.~P.}\
+  \bibnamefont {Proukakis}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Rylands}}, \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Rubinsztein-Dunlop}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Scazza}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Stringari}},
+  \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Tosto}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Trombettoni}}, \bibinfo {author}
+  {\bibfnamefont {N.}~\bibnamefont {Victorin}}, \bibinfo {author}
+  {\bibfnamefont {W.~v.}\ \bibnamefont {Klitzing}}, \bibinfo {author}
+  {\bibfnamefont {D.}~\bibnamefont {Wilkowski}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Xhani}},\ and\ \bibinfo {author}
+  {\bibfnamefont {A.}~\bibnamefont {Yakimenko}},\ }\bibfield  {title}
+  {{\selectlanguage {english}\bibinfo {title} {Roadmap on atomtronics: State of
+  the art and perspective}},\ }\href {https://doi.org/10.1116/5.0026178}
+  {\bibfield  {journal} {\bibinfo  {journal} {AVS Quantum Science}\ }\textbf
+  {\bibinfo {volume} {3}},\ \bibinfo {pages} {039201} (\bibinfo {year}
+  {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Qi}\ \emph {et~al.}(2017)\citenamefont {Qi},
+  \citenamefont {Hu}, \citenamefont {Valenzuela}, \citenamefont {Zhang},
+  \citenamefont {Zhai}, \citenamefont {Quan}, \citenamefont {Waltham},\ and\
+  \citenamefont {Fang}}]{MagneticallyGuQiLu2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Qi}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Hu}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Valenzuela}}, \bibinfo {author}
+  {\bibfnamefont {Y.}~\bibnamefont {Zhang}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Zhai}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont
+  {Quan}}, \bibinfo {author} {\bibfnamefont {N.}~\bibnamefont {Waltham}},\ and\
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Fang}},\ }\bibfield
+  {title} {{\selectlanguage {english}\bibinfo {title} {Magnetically guided
+  cesium interferometer for inertial sensing}},\ }\href
+  {https://doi.org/10.1063/1.4980066} {\bibfield  {journal} {\bibinfo
+  {journal} {Applied Physics Letters}\ }\textbf {\bibinfo {volume} {110}},\
+  \bibinfo {pages} {153502} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {McDonald}\ \emph {et~al.}(2013)\citenamefont
+  {McDonald}, \citenamefont {Kuhn}, \citenamefont {Bennetts}, \citenamefont
+  {Debs}, \citenamefont {Hardman}, \citenamefont {Johnsson}, \citenamefont
+  {Close},\ and\ \citenamefont {Robins}}]{80kmomentumSeMcdona2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.~D.}\ \bibnamefont
+  {McDonald}}, \bibinfo {author} {\bibfnamefont {C.~C.~N.}\ \bibnamefont
+  {Kuhn}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Bennetts}},
+  \bibinfo {author} {\bibfnamefont {J.~E.}\ \bibnamefont {Debs}}, \bibinfo
+  {author} {\bibfnamefont {K.~S.}\ \bibnamefont {Hardman}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Johnsson}}, \bibinfo {author}
+  {\bibfnamefont {J.~D.}\ \bibnamefont {Close}},\ and\ \bibinfo {author}
+  {\bibfnamefont {N.~P.}\ \bibnamefont {Robins}},\ }\bibfield  {title}
+  {{\selectlanguage {english}\bibinfo {title} {80hkmomentum separation with
+  bloch oscillations in an optically guided atom interferometer}},\ }\bibfield
+  {journal} {\bibinfo  {journal} {Physical Review A}\ }\textbf {\bibinfo
+  {volume} {88}},\ \href {https://doi.org/10.1103/physreva.88.053620}
+  {10.1103/physreva.88.053620} (\bibinfo {year} {2013})\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Amico}\ \emph {et~al.}(2017)\citenamefont {Amico},
+  \citenamefont {Birkl}, \citenamefont {Boshier},\ and\ \citenamefont
+  {Kwek}}]{FocusOnAtomtrAmico2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Amico}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Birkl}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Boshier}},\ and\ \bibinfo
+  {author} {\bibfnamefont {L.-C.}\ \bibnamefont {Kwek}},\ }\bibfield  {title}
+  {\bibinfo {title} {Focus on atomtronics-enabled quantum technologies},\
+  }\href {https://doi.org/10.1088/1367-2630/aa5a6d} {\bibfield  {journal}
+  {\bibinfo  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume}
+  {19}},\ \bibinfo {pages} {020201} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Pepino}(2021)}]{AdvancesInAtoPepino2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.~A.}\ \bibnamefont
+  {Pepino}},\ }\bibfield  {title} {{\selectlanguage {english}\bibinfo {title}
+  {Advances in atomtronics}},\ }\href {https://doi.org/10.3390/e23050534}
+  {\bibfield  {journal} {\bibinfo  {journal} {Entropy}\ }\textbf {\bibinfo
+  {volume} {23}},\ \bibinfo {pages} {534} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Krej\v{c}i\v{r}\'{i}k}\ and\ \citenamefont
+  {\v{S}ediv\'{a}kov\'{a}}(2012)}]{TheEffectiveHKrejci2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Krej\v{c}i\v{r}\'{i}k}}\ and\ \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {\v{S}ediv\'{a}kov\'{a}}},\ }\bibfield  {title}
+  {{\selectlanguage {english}\bibinfo {title} {The effective hamiltonian in
+  curved quantum waveguides under mild regularity assumptions}},\ }\href
+  {https://doi.org/10.1142/s0129055x12500183} {\bibfield  {journal} {\bibinfo
+  {journal} {Reviews in Mathematical Physics}\ }\textbf {\bibinfo {volume}
+  {24}},\ \bibinfo {pages} {1250018} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Feit}\ \emph {et~al.}(1982)\citenamefont {Feit},
+  \citenamefont {Fleck},\ and\ \citenamefont {Steiger}}]{NoneFeit1982}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Feit}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Fleck}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Steiger}},\ }\bibfield
+  {title} {{\selectlanguage {english}\bibinfo {title} {None}},\ }\href
+  {https://doi.org/10.1016/0021-9991(82)90091-2} {\bibfield  {journal}
+  {\bibinfo  {journal} {Journal of Computational Physics}\ }\textbf {\bibinfo
+  {volume} {47}},\ \bibinfo {pages} {412} (\bibinfo {year} {1982})}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%

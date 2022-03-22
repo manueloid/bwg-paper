@@ -1,0 +1,50 @@
+\documentclass[aps,pra,twocolumn,superscriptaddress,floatfix]{revtex4-2}
+ 
+\usepackage{amsmath,amssymb} % math symbols
+\usepackage[english]{babel}
+\usepackage{braket}%used for the \bra \ket notation
+\usepackage{bm} % bold math font
+\usepackage{caption}
+	%\captionsetup{justification=raggedright,singlelinecheck=false}%force caption aligning to the left
+\usepackage{comment} % allows block comments
+\usepackage[ISO]{diffcoeff} %differentials and derivatives package
+\usepackage{graphicx} % for figures
+\usepackage[percent]{overpic}
+\usepackage{pgfplots} % for figures
+\usepgfplotslibrary{groupplots}
+\usepackage{subcaption}	
+\pgfplotsset{compat=1.16}
+\usepackage{textcomp} % This package is just to give the text quote '
+\usepackage{tikz}
+%\usepackage{ulem} % allows strikeout text, e.g. \sout{text}
+\usepackage{enumitem}
+\setlist{noitemsep,leftmargin=*,topsep=0pt,parsep=0pt}
+
+\usepackage{xcolor} % \textcolor{red}{text} will be red for notes
+\definecolor{lightgray}{gray}{0.6}
+\definecolor{medgray}{gray}{0.4}
+
+\newcommand\Ga
+{\mathbf{\Gamma}}
+\usepackage{hyperref}
+\hypersetup{
+colorlinks=true,
+urlcolor= blue,
+citecolor=blue,
+linkcolor= blue,
+% bookmarks=true,
+% bookmarksopen=false,
+}
+
+\newcommand{\mytitle}{Design of Bent Waveguide Via Shortcuts to Adiabaticity}
+
+\usepackage{cleveref}
+\begin{document}
+\input{sections/title}
+\input{sections/sec1_introduction.tex}
+\input{sections/sec2_classic.tex}
+\input{sections/sec3_quantumsim.tex}
+\input{sections/sec4_result.tex}
+\bibliography{sections/bibliography.bib}
+
+\end{document}
