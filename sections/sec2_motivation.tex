@@ -1,19 +1,24 @@
 \section{Hamiltonian of a bent waveguide}
-Let us consider a system composed by a waveguide where the confinement is achieved by means of a harmonic trapping of intensity $ \omega $.
+In this context, we consider a waveguide composed by a harmonic trap of intensity $ \omega $ extending in two dimensions and a quantum state with initial momentum $ k_0 $  moving inside it.
 With no loss of generality, we can assume that the waveguide is formed by two straight ducts forming an angle $\alpha = \pi/2$ and connected by a bent section.
-We also assume that the initial state is a separable 2D Gaussian wave packet entering the curved trait with momentum $k_0$, and hence it can be written as 
-\begin{align}
-\label{eq:initial_state}
-	\psi_{0}(x,y) = \left(\frac{1}{2 \pi \sigma_{x}^{2}}\right)^{1/4}\exp\left(- \frac{x^{2}}{4\sigma_{x}^{2}} - i k_{0}x  \right)\\
-	\left(\frac{1}{2\pi\sigma_{y}^{2}}\right)^{1/4}\exp\left(-\frac{y^{2}}{4\sigma_{y}^{2}}\right)
-\end{align}
-where $ \sigma_{y} $  is the dispersion along the transverse axis equal to $\sqrt{\hbar/2 m \omega}$ while the longitudinal dispersion $ \sigma_{x} $ is set.
-If no bending was involved, $\psi_0$  would evolve under the effect of the Hamiltonian of a straight waveguide 
+In the ideal case the quantum particle would start in one of the straight ends and would evolve as a free particle along the waveguide to finally leave the curved part unperturbed, albeit for a rotation equal to $ \alpha $.
+The geometry of the system, however, alters the structure of the Hamiltonian, thus introducing mixing between the two components of the wave function.
+This mixing in turn will reduce the control we have on the quantum particle so we need to find a convenient way to describe how the Hamiltonian changes according to the change of the geometry.
+In order to derive the full Hamiltonian of the system we will start from the one describing a waveguide extending along a straight line. 	
+If the bottom of the waveguide sits on the $ x $ axis, for example, the Hamiltonian of the system can be written as in \cref{eq:straighthamilton}
 \begin{equation}
-	\label{eq:straightwave}
-	 H = -\frac{\hbar^2}{2m} \left(\partial_{x}^{2} + \partial_{y}^{2}\right) + \frac{1}{2}m\omega^2y^2
+	\label{eq:straighthamilton}
+	 H = -\frac{\hbar^2}{2m} \left(\partial_{x}^{2} + \partial_{y}^{2}\right) + \frac{1}{2}m\omega^2y^2.
 \end{equation}
-and we could write the wave function at the time $t$ as the product of a free particle along $x$ and the ground state of the harmonic oscillator along $y$. 
+A suitable initial state - solution of \cref{eq:straighthamilton} - is a 2D separable Gaussian wave packet with initial momentum $ k_0 $ that can be described by the state vector $ \ket{\Psi_{0}(x,y)} = \ket{\phi(x)}\ket{\psi(y)} $  where $ \ket{\phi(x)} $ the Gaussian wave packet along the $ x $ direction and $ \ket{\psi(y)} $ is the ground state of the harmonic oscillator.
+The equation for the state $ \ket{\Psi_0}$ is given by \cref{eq:initial_state} 
+\begin{dmath}
+\label{eq:initial_state}
+\ket{\Psi_{0}(x,y)} = \left(\frac{1}{2 \pi \sigma_{x}^{2}}\right)^{1/4}\exp\left(- \frac{x^{2}}{4\sigma_{x}^{2}} - i k_{0}x  \right)\\
+	\left(\frac{1}{2\pi\sigma_{y}^{2}}\right)^{1/4}\exp\left(-\frac{y^{2}}{4\sigma_{y}^{2}}\right)
+\end{dmath}
+where $ \sigma_{y} $  is the dispersion along the transverse axis equal to $\sqrt{\hbar/2 m \omega}$ while the longitudinal dispersion $ \sigma_{x} $ is set.
+If no bending was involved, $\ket{\Psi_0}$  would evolve under the effect of the Hamiltonian of a straight waveguide and we could write the wave function at the time $t$ as the product of a free particle along $x$ and the ground state of the harmonic oscillator along $y$. 
 On the other hand, if we assume the waveguide to be bent and considering the bottom of the trap to follow a curve $\Ga$ in $\mathbb{R}^2$, the modification in the geometry of the system produces mixing between the two components of the wave function, hence making harder it to control the particle.
 The Hamiltonian of this system has been studied extensively in the literature (see for example \cite{TheEffectiveHKrejci2012}) and can be evaluated by using the most convenient curvilinear coordinates $(s,u)$ where $s$ is defined as the arc length of $\Ga$ defined as $s(t) = \int_0^t d\tau||\Ga'(\tau)||$ and $u$ is the transverse coordinate.
 The local coordinate axis are the normal vectors \textbf{t}(s), \textbf{n}(s), with \textbf{t} the tangent vector to the curve and \textbf{n} the unit vector perpendicolar to \textbf{t} as in  \cref{fig:setup}.
@@ -45,7 +50,7 @@ where $V(s,u)$ is the attractive potential resulting from the change of coordina
 \end{equation}
 In many studies an adiabatic approach has been followed to solve the Hamiltonian \eqref{eq:curvedhamilton} 
 Adiabatic in the sense that the curvature has been chosen to be varying slowly with respect ot the $s$ coordinate, i.e. $\dot{\gamma}, \ddot{\gamma} \approx 0 $.
-This approach does not take into account many particular settings, for example the ones with geometric consstraints where a sharp turn needs to be considered.
+This approach does not take into account many particular settings, for example the ones with geometric constraints where a sharp turn needs to be considered.
 For this reason Gu\'ery-Odelin et al in \cite{QuantumControlImpens2020} have designed a semi-classical protocol based on Shortcuts to Adiabaticity (STA) to circumvent the limitations of the adiabatic approach.
 In \cite{QuantumControlImpens2020} the curvature $\gamma$ has been inversed engineered by writing the classical 2D Newton's equations of motion for a particle with initial speed $\dot{s}_0$.
 The idea is to impose the dependence of the curvature coordinates $(s,u)$ from the time parameter $t$ so that the position of a point particle of mass $m$ can be described bt the vector $\Ga(s(t))$.

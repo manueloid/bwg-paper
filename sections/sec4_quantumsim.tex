@@ -1,10 +1,10 @@
 \section{Numerical Simulation}
 The quantum simulation has been carried out via the split operator method \cite{NoneFeit1982}, relying on the Fourier transform in cartesian coordinates.
-Hence, the Frenet Serrat differential equations \crefrange{eq:frenet1}{eq:frenet2} have been solved to retrieve the curves $ \Ga_{n} $ (as in \cref{fig:curves}) and they have the subsequently been used to build the potential in cartesian coordinates to rewrite the Hamiltonian \cref{eq:curvedhamilton} in the Cartesian frame of reference
-\begin{equation}
+Hence, the Frenet Serrat differential equations \crefrange{eq:frenet1}{eq:frenet2} have been solved to retrieve the curves $ \Ga_{n} $ (as in \cref{fig:curvatures}) and they have subsequently been used to build the potential in cartesian coordinates to rewrite the Hamiltonian \cref{eq:curvedhamilton} in the Cartesian frame of reference
+\begin{equation*}
 	\label{eq:splitophamilton}
-	h = -\partial_{x}^{2}-\partial_{y}^{2} + V_{C}(x,y)
-\end{equation}
+	H = -\frac{\hbar^{2}}{2m}\left(\partial_{x}^{2}-\partial_{y}^{2}\right) + V_{C}(x,y)
+\end{equation*}
 where now $ V_{C}(x,y) $  is the whole potential in Cartesian coordinates, encompassing both the attractive potential $ V(s,u) $ due to the bending and the harmonic trapping $ V_{\perp}(u) $ of \cref{eq:curvedhamilton}.
 We then choose the initial wave function $ \psi_{0} $ to be a travelling 2D Gaussian wave packet with initial momentum $ k_{0} $ in a harmonic waveguide of trapping frequency $ \omega $ as in \cref{eq:initial_state}.
 Moreover, the longitudinal and transverse dispersion $ \sigma_{x} $  and $ \sigma_{y} $ have been fixed to 0.05 and $ \frac{1}{2} m\omega $ respectively.
